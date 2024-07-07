@@ -40,6 +40,4 @@
 - 非常好commit訊息，簡單明瞭!<br>
 ![image](https://hackmd.io/_uploads/SkfcTPvvA.png)
 
-### 成果展示
-- 可附上其他專案介紹的投影片/文件等等
-> SITCON Hackathon 2024
+
