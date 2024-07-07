@@ -16,7 +16,7 @@
 
 - 操作方式：
     - API串接
-        1. 網址路徑為/api/v1/dashboard/nearbyAED?**parameters**
+        1. 網址路徑為 `/api/v1/dashboard/nearbyAED?**parameters**`
             * (必要參數) lat 緯度
             * (必要參數) lng 經度
             * (選填參數) limit 資料筆數<br>
