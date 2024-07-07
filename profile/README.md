@@ -23,7 +23,21 @@
             (必要參數) 經度
             * limit
             (選填參數) 資料筆數<br>
-        2. 必須把修改後的 .env 檔案複製進 Taipei-City-Dashboard-AI 資料夾裡
+        2. 回傳資料結構如下
+           ```
+           {
+              "data": [
+                {
+                  "name": 地點名稱 -> str,
+                  "address": 地址 -> str,
+                  "mapUrl": google map的地點連結 -> str,
+                  "place": AED詳細放置地點 -> str,
+                  "distance": 距離 (單位為km) -> double
+                }
+              ],
+              "status": 狀態 (success or error) -> str
+            }
+           ```
     - APP操作方式<br>
            1. 點擊主畫面上的搜尋鈕後會顯示最近三個目標的詳細位置，進一步點擊隊位置的描述會跳轉到該位置的Google Map即可進行導航或取得其他相關資訊
 
