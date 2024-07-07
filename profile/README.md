@@ -1,19 +1,10 @@
----
-title: SITCON Hackathon 2024 專案 README 模板
-tags: SITCON Hackathon 2024, SITCON,  Hackathon , 2024 ,
-GA: 
----
-# {42號混凝土搭配義大利麵程式碼而具有放射性的GPT秦始皇橫切面助理}
-
-SITCON Hackathon 2024 成果發表範例
-
-> **競賽議題 & 子議題、專案簡介、使用資源為必填**
+# 鄰近點查詢API
 
 ## 競賽議題 & 子議題
-- 團隊名稱：{ noob.py }
-- 成員姓名：{吳秉彥}, {段宇謙}, {莊庭愷}, {陳柏安}
-- 競賽議題：{公創新世代：學生力量與科技共創公民參與}
-    - 子議題：{智慧城市 X 臺北市政府資訊局}
+- 團隊名稱：`鯊呱SITCON遠征團`
+- 成員姓名：`廖子閔`、`黃家元`、`黃睿淞`、`高睿`
+- 競賽議題：`公創新世代：學生力量與科技共創公民參與`
+    - 子議題：`智慧城市 X 臺北市政府資訊局`
 
 
 ### 專案簡介
@@ -27,10 +18,10 @@ SITCON Hackathon 2024 成果發表範例
 - 操作方式：
     - 環境設置
         1. 可以看到 .env 檔案新增了兩個 API，
-            * OPENAI_API_KEY<br>
+            * OPENAI_API_KEY
             此為必需新增的 API，否則無法與智慧城市對話。
-            * LANGCHAIN_API_KEY<br>
-            此為開發用 API，可以透過 LangSmith 看清楚整體 Chain 流程。可加可不加
+            * LANGCHAIN_API_KEY
+            此為開發用 API，可以透過 LangSmith 看清楚整體 Chain 流程。可加可不加<br>
         2. 必須把修改後的 .env 檔案複製進 Taipei-City-Dashboard-AI 資料夾裡
     - 使用者操作方式<br>
         只需點擊智慧城市按鈕，之後並可與之對話。
