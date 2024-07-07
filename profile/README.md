@@ -15,12 +15,14 @@
 - 使用情境：行動裝置APP、桌面應用程式等須取得指定位置附近的目標位置時
 
 - 操作方式：
-    - 環境設置
-        1. 可以看到 .env 檔案新增了兩個 API，
-            * OPENAI_API_KEY
-            此為必需新增的 API，否則無法與智慧城市對話。
-            * LANGCHAIN_API_KEY
-            此為開發用 API，可以透過 LangSmith 看清楚整體 Chain 流程。可加可不加<br>
+    - API串接
+        1. 網址路徑為/api/v1/dashboard/nearbyAED?**parameters**
+            * lat
+            (必要參數) 緯度
+            * lng
+            (必要參數) 經度
+            * limit
+            (選填參數) 資料筆數<br>
         2. 必須把修改後的 .env 檔案複製進 Taipei-City-Dashboard-AI 資料夾裡
     - APP操作方式<br>
            1. 點擊主畫面上的搜尋鈕後會顯示最近三個目標的詳細位置，進一步點擊隊位置的描述會跳轉到該位置的Google Map即可進行導航或取得其他相關資訊
